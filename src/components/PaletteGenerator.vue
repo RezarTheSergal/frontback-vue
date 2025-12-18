@@ -1088,7 +1088,6 @@ export default {
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
-	background: url('@/images/horizontal-furry-backflip-background.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
