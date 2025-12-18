@@ -8,9 +8,9 @@
 			@user-clicked="handleUserClick"
 		>
 			
-			<template #actions>
+			<!-- <template #actions>
 				<button @click="editUser(adminUser)">Редактировать</button>
-			</template>
+			</template> -->
 			
 			<p>Администратор системы</p>
 		</UserCard>
@@ -42,8 +42,8 @@ export default {
 		return {
 			adminUser: {
 				id: 1,
-				name: 'Анна Иванова',
-				email: 'anna@example.com',
+				name: 'Алексей Алексов',
+				email: 'alex@german.com',
 				role: 'admin',
 			},
 			users: [
