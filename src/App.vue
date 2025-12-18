@@ -10,7 +10,7 @@
 			<router-view></router-view>
 		</main>
 		<footer class="app-footer">
-			<p>Vue 3 + Vite - Генератор цветовых палитр</p>
+			<p>RezarTheSergal @2025</p>
 		</footer>
 		<NotificationContainer />
 	</div>
