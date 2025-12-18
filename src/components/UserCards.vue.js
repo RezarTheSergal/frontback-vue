@@ -41,39 +41,24 @@ var __VLS_5;
 var __VLS_6 = ({ userClicked: {} },
     { onUserClicked: (__VLS_ctx.handleUserClick) });
 var __VLS_7 = __VLS_3.slots.default;
-{
-    var __VLS_8 = __VLS_3.slots.actions;
-    __VLS_asFunctionalElement(__VLS_intrinsics.button, __VLS_intrinsics.button)(__assign({ onClick: function () {
-            var _a = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                _a[_i] = arguments[_i];
-            }
-            var $event = _a[0];
-            __VLS_ctx.editUser(__VLS_ctx.adminUser);
-            // @ts-ignore
-            [adminUser, adminUser, handleUserClick, editUser,];
-        } }));
-    // @ts-ignore
-    [];
-}
 __VLS_asFunctionalElement(__VLS_intrinsics.p, __VLS_intrinsics.p)({});
 // @ts-ignore
-[];
+[adminUser, handleUserClick,];
 var __VLS_3;
 var __VLS_4;
 for (var _i = 0, _a = __VLS_getVForSourceType((__VLS_ctx.users)); _i < _a.length; _i++) {
     var user = _a[_i][0];
-    var __VLS_9 = void 0;
+    var __VLS_8 = void 0;
     /** @ts-ignore @type {typeof ___VLS_components.UserCard} */
     UserCard_vue_1.default;
     // @ts-ignore
-    var __VLS_10 = __VLS_asFunctionalComponent(__VLS_9, new __VLS_9(__assign({ 'onUserClicked': {} }, { key: (user.id), user: (user) })));
-    var __VLS_11 = __VLS_10.apply(void 0, __spreadArray([__assign({ 'onUserClicked': {} }, { key: (user.id), user: (user) })], __VLS_functionalComponentArgsRest(__VLS_10), false));
-    var __VLS_14 = void 0;
-    var __VLS_15 = ({ userClicked: {} },
+    var __VLS_9 = __VLS_asFunctionalComponent(__VLS_8, new __VLS_8(__assign({ 'onUserClicked': {} }, { key: (user.id), user: (user) })));
+    var __VLS_10 = __VLS_9.apply(void 0, __spreadArray([__assign({ 'onUserClicked': {} }, { key: (user.id), user: (user) })], __VLS_functionalComponentArgsRest(__VLS_9), false));
+    var __VLS_13 = void 0;
+    var __VLS_14 = ({ userClicked: {} },
         { onUserClicked: (__VLS_ctx.handleUserClick) });
+    var __VLS_11;
     var __VLS_12;
-    var __VLS_13;
     // @ts-ignore
     [handleUserClick, users,];
 }
@@ -93,8 +78,8 @@ var __VLS_export = (await Promise.resolve().then(function () { return require('v
         return {
             adminUser: {
                 id: 1,
-                name: 'Анна Иванова',
-                email: 'anna@example.com',
+                name: 'Алексей Алексов',
+                email: 'alex@german.com',
                 role: 'admin',
             },
             users: [

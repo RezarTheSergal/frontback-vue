@@ -46,7 +46,7 @@ declare const __VLS_export: import("vue").DefineComponent<{}, {
         addNotification: (message: string, type?: "success" | "error" | "warning" | "info", duration?: number) => string;
         removeNotification: (id: string) => void;
         clearAll: () => void;
-    }, "removeNotification" | "addNotification" | "clearAll">>;
+    }, "addNotification" | "removeNotification" | "clearAll">>;
 }, {
     adminUser: {
         id: number;
