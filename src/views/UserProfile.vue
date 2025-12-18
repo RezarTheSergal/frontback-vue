@@ -13,7 +13,7 @@
 			<div v-else class="current-user">
 				<h2>Ваш профиль</h2>
 				<p>Email: user@example.com</p>
-				<p>Дата регистрации: 2024-01-01</p>
+				<p>Дата регистрации: 2025.5.25</p>
 			</div>
 
 			<div class="navigation-buttons">

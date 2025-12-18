@@ -32,7 +32,10 @@
 			<select v-model="selectedTech" class="select-input">
 				<option value="vue">Vue.js</option>
 				<option value="react">React</option>
-				<option value="angular">Angular</option>
+				<option value="css">CSS</option>
+				<option value="js">js</option>
+				<option value="html">HTML</option>
+				<option value="unity">Unity</option>
 			</select>
 			<p>Вы выбрали: {{ getTechName(selectedTech) }}</p>
 		</div>

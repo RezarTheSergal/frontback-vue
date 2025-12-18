@@ -53,7 +53,6 @@ export default {
 	transition: all 0.3s ease;
 	box-shadow: 0 0 20px rgba(68, 196, 255, 0.1), inset 0 0 20px rgba(68, 196, 255, 0.05);
 	cursor: pointer;
-	/* ФОНОВОЕ ИЗОБРАЖЕНИЕ: профильная текстура */
 	background: url('@/images/verticle-abstraction.jpg'), var(--cp-bg-card);
 	background-size: cover, cover;
 }
